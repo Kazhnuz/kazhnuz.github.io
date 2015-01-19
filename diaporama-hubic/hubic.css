@@ -1,0 +1,68 @@
+body {
+/*text-shadow:2px 2px 1px #000;*/
+}
+
+@media screen and (max-width: 1260px)  {
+	.slide-background {
+		background-size:260px !important;
+	}
+}
+
+@media screen and (max-width: 1230px)  {
+	.slide-background {
+		background-size:260px !important;
+	}
+}
+
+@media screen and (max-width: 1200px)  {
+	.slide-background {
+		background-size:200px !important;
+	}
+}
+
+@media screen and (max-width: 860px)  {
+	.slide-background {
+		background-size:180px !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.slides {
+		background-color:rgba(0,0,0,0.5);
+		border-radius:30px;
+		margin:30px;
+		color:#FFFFFF;
+	}
+	.slide-background {
+		background-size:180px !important;
+	}
+}
+
+h1 {
+font-size:3.13em !important;
+}
+
+small {
+vertical-align:bottom !important;
+}
+
+.quoteauthor {
+text-align: right;
+width: 100%;
+display: block;
+
+}
+
+#slide_espionnage {
+background-image:url("img/espionnage.png");
+
+background-repeat:no-repeat;
+background-size:400px auto;
+}
+
+.reveal {
+background-image:url("img/icone.png");
+background-repeat:no-repeat;
+background-position:10px 10px;
+background-size:100px;
+}
