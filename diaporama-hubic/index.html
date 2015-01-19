@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Hubic et les données privées</title>
+
+		<meta name="description" content="Une présentation sur la question des données personnelles dans le cloud, appliquée à HUBiC">
+		<meta name="author" content="Kazhnuz">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="hubic.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides" data-transition="none">
+
+				<!-- Diapo 1 : « Introduction » -->
+				<section data-transition="none">
+				<section data-transition="none">
+					<h1>Hubic et les données privées</h1>
+					<p><img alt="Capture d'écran d'accueil du site HUBiC" src="img/screen.png" /><br /><small class="legend">Capture de l'écran d'accueil du site HUBiC</small></p>
+				</section>
+
+					<section data-transition="none">
+						<h2>Notes : Introduction rapide</h2>
+						<ul>
+							<li>Le Cloud Computing à pris dans notre vie → Données mises en ligne, utilisation courrante de ces logiciels</li>
+							<li>Existence chez l'utilisateur d'un besoin de contrôle de ses données (personnelles ou qu'il y stocke) : Droit à la vie privée, à ce que des données le restent et ne soient pas publiés.</li>
+							<li>Problématique : Est-ce que HUBiC répond à ce besoin ?</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Qu'est-ce qu'Hubic ?</h2>
+					<ul>
+						<li>Service de stockage de fichier par OVH.com<br />
+						<center><img alt="Fonctionnement du Cloud Computing" src="img/schema.png" /><br />
+							<small>Fonctionnement du Cloud Computing par <a href="#">Davide Lamanna</a></small>
+						</center>
+
+						</li>
+						<li>Trois offres <small>(25 Go – gratuit ; 100 Go – 1€/mois ; 10 To – 10€/mois)</small></li>
+					</ul>
+					</section>
+					<section>
+						<h2>Notes (1/2) : Présentation d'Hubic</h2>
+						<ul>
+							<li>Créé par la société familliale OVH.com qui fourni d'autres services (hébergement)</li>
+							<li>Les offres fournies par le service attractif :
+							<ul>
+								<li>Offre gratuite → 25 Go assez confortable pour un particulier. </li>
+								<li>Au niveau du prix, 10 To pour 10€ TTC mois → moins cher qu'avoir à entretenir un serveur de stockage de donnée</li>
+							</ul>							
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Notes (2/2) : Posons le problème</h2>
+						<p>Stockages de Fichiers → Informatiques dans les nuages. Le schéma nous montre bien que dans le cloud computing, les données ne sont pas sur une machine que l'on contrôle directement, c'est pourquoi on a besoin de s'assurer que nos données sont en sécurités.
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Les risques du « Cloud »</h2>
+					<ul>
+						<li>Pertes ou disparition des données</li>
+						<li>Attaques crapuleuses (iCloud Leak, etc)</li>
+						<li>Utilisation commerciale (publicité, etc)</li>
+						<li>Espionnage de masse (PRISM, etc)</li>
+					</ul>
+					<blockquote>« I'd like to suggest a new phrase so that every time we say cloud we say 'somebody else's computer'. »</blockquote>
+					<author class="quoteauthor">— Graham Cluley</author>
+					</section>
+					<section>
+					<h2>Notes (1/4) : les pertes de données</h2>
+					<p>Des données qui peuvent disparaître d'un coup ne sont pas sûre, il nous faut pouvoir être certain que nous pourrons les conserver le temps dont on a besoin.</p>
+					</section>
+					<section>
+					<h2>Notes (2/4) : Les attaques crapuleuses</h2>
+					<p>L'iCloud Leak (Leak de photo nues de célébrité) et les leaks de mots de passe nous rappellent qu'un service peut subir des attaques visant à récupérer des données. Ce genre d'atteinte est contrée par la sureté du services (même si les infractions existent et existeront toujours).</p>
+					</section>
+					<section>
+					<h2>Notes (3/4) : l'utilisations et la revente des données</h2>
+					<p>Ce buisness-model est criticable et critiqué. Il est parfaitement possible de vouloir quelque chose qui ne l'utilise pas, dans le sens ou de base, on peut estimer que nos données privées - qui ne concernent que nous - n'ont pas à être utilisées.</p>
+					</section>
+					<section>
+					<h2>Notes (4/4) : Récupération des données par des états, espionnages.</h2>
+					<p>Depuis les révélations Snowden, de nombreux internautes se questionnent sur l'espionnage de masse, et la possibilité qu'on des organisations de récupérer leur données. Cela dépend pas mal de la localisation des serveurs. Important: La justice garde toujours un droit d'intervention.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Pérennité des données</h2>
+					<ul>
+						<li>Redondance des datacenters (Au nombre de trois). </li>
+						<li>Se réservent le droit de supprimer le compte au bout d'un moment d'inactivité (un mail est envoyé 30 jours avant).</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Notes (1/2) : La redondance des datacenter</h2>
+					<p>Cette redondance permet d'avoir les données en trois points différents, si l'un à un soucis, toujours deux encore en service (donc encore un de rab → Sécurité accrue, puisque pendant le temps de réparation si un des deux autres à un soucis, il en reste encore un)</p>
+					</section>
+				<section>
+					<h2>Notes (2/2) : La possibilité pour HUBiC de supprimer le compte</h2>
+					<p>Le droit de HUBiC de supprimer le compte de l'utilisateur et ses données au bout d'un temps d'inactivité fait qu'il faut faire attention au donnée qu'on dépose sur le service, et devons faire attention à nous connecter dessus régulièrement.</p>
+					<p>De plus, dans les CGU, HUBiC indique que les données partagée ne respectant pas les droits d'auteurs ou la lois françaises peuvent être supprimée.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Sécurité du service</h2>
+					<ul>
+						<li>Utilisation de SSL pour le chiffrage des données.</li>
+						<li>Protège de l'accès physique aux données.</li>
+						<li>Données protégée une fois sur le serveur.</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Notes : Sécurité du Service</h2>
+					<ul>
+						<li>Le chiffrement avec SSL protège des interception de données, mais c'est un minimum.<ul><li>HUBiC utilise une version de openSSL patchée contre la faille Heartbleed</li></ul></li>
+						<li>OVH dit protéger de toute accès physique aux datacenter par des personnes non-autorisés.</li>
+						<li>Il est dit dans la faq que les données sont « partitionnée » au niveau du serveur (les autres clients n'ont pas accès aux données)..</li>
+					</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Utilisation des données</h2>
+					<ul>
+						<li>« OVH s'interdit toute divulgation, toute revente des données nominatives relatives au Client. » (CGU)</li>
+						<li>Cependant, les filliales d'OVH y ont accès.</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Notes : Utilisation des données</h2>
+					<ul>
+						<li>Analyse de la phrase : « données nominatives relatives au clients » signifie que les données se reliant à nous sont concerné, c'est à dire à notre identité. <ul><li> Il ne peut donc pas y avoir de revente pour faire de la pub personnalisée, en théorie. </li></ul></li>
+						<li>Les filliales d'OVH y ont accès, pour permettre la communication entre les services sûrement.</li>
+					</ul>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/espionnage.png" data-background-size="300px" data-background-repeat="no-repeat" data-background-position="90% 90%" data-background-opacity="50%">
+					<h2>HUBiC et « l'espionnage »</h2>
+					<ul>
+						<li>Serveurs en France ( Par rapport au Patriot Act et à PRISM )</li>
+						<li>Possibilité d'actions venant de l'état Français ou de la Justice.</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Notes : HUBiC et « l'espionnage »</h2>
+					<ul>
+						<li>La présence des serveurs en France nous protège en partie d'une action « directe » d'instituts comme la NSA (évidemment cela n'est pas une protection absolue), puisque le serveur n'est donc pas soumis au Patriot Act.<ul><li>Mais il existe en France une loi proche, la Loi pour la Programmation Militaire : Certains pouvoirs de l'état sur le serveur.</li></ul></li>
+					</ul>
+					<p>Il ne faut pas oublier non plus la possibilité d'action de la justice face à des fichiers criminels, par exemple (ce qui est logique)</p>
+
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Conclusion : Hubic ou non ?</h2>
+					<ul>
+						<li>Service pratique (peu cher, pas mal d'espace)</li>
+						<li>Promet d'être respectueux des données.</li>
+						<li>Mais se réservent le droit de changer les CGUs</li>
+						<li>Pour certains besoins et préférences, garder le contrôle peut être préférable.</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Notes sur la conclusion</h2>
+					<ul>
+						<li>Pratique ~> revoir diaporama 2.</li>
+						<li>La promesse d'être respectueux : Diaporama 4-7. Les données semble sécurisée et protégée des divers risques dits en 3.</li>
+					</ul>
+					<p>Cependant, il est aussi dit que leur CGU peuvent changé à tout moment, on délègue toujours une partie de notre contrôle sur les données pour avoir ce service. </p>
+					<p>Si ce « marché » peut convenir à certains, d'autres auront d'autres besoins. Pour ma part, j'ai une préférence pour d'autres alternatives</p>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="img/logiciellibre.png" data-background-size="300px" data-background-repeat="no-repeat" data-background-position="90% 90%" data-background-opacity="50%">
+
+					<h2>Quelles alternatives ?</h2>
+					<ul>
+						<li>Owncloud : Logiciel pour faire son propre cloud. Existence d'instances en lignes comme une chez OpenMailBox</li>
+						<li>Possibilité de synchroniser ses données sans serveur avec Bittorent Sync ou Syncthing</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Notes (1/2) : Owncloud</h2>
+					<p>Owncloud est un logiciel de cloud qui peut avoir des extensions (notamment une permettant de modifier des fichiers OpenDocument, ou une permettant de lire les flux RSS). A noter que l'utiliser par un service garde certains soucis dit plus haut, puisqu'on délègue toujours le contrôle. Dans ce sens, on peut se demander alors si dans ce cas HUBiC n'est pas préférable. Une liste d'instance est <a href="http://owncloud.org/providers/#free">disponible ici.</a></p>
+					<p>Comme alternative à Owncloud, il y a <a href="http://www.seafile.com/en/home/">Seafile</a> et <a href="https://pyd.io/">Pyd.Io</a></p>
+					</section>
+					<section>
+					<h2>Notes (2/2) : La synchronisation de fichier</h2>
+					<p>Si le besoin est uniquement de faire de la synchronisation de fichier entre ses différentes machines (par exemple entre un netbook pour travailler et un ordinateur de bureau chez soi), la synchronisation avec des logiciels Peer 2 Peer a pour aventage sa décentralisation, ce grâce aux protocoles utilisés.<a href="http://syncthing.net/">Syncthing</a> est un équivalent libre et open-source de Bitorrent Sync.
+					</section>
+				</section>
+
+				<section>
+					<h2>Sources et Crédits</h2>
+					<p>Présentation CC BY-SA <a href="http://kazhnuz.quarante-douze.net">Kazhnuz</a>. Fait avec <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a></p>
+					<ul>
+						<li><a href="https://hubic.com/fr/contracts/Contrat_hubiC_2014.pdf">CGU</a> et <a href="https://hubic.com/fr/faq">FAQ</a> d'HUBiC (informations sur le service). Utilisation de ces informations et de la screenshot du site sous Fair Use.</li>
+						<li>Framasoft : <a href="http://degooglisons-internet.org/">Dégooglisons Internet</a> (alternatives) et images (« Ils sont fous ces espions », Parodie de Richard Stallmann en druide gaulois, par Simon « Gee » Giraudot)</li>													
+						<li>Wikimedia Commons : <a href="https://commons.wikimedia.org/wiki/File:Cloud_Computing.png">Schéma Cloud Computing</a> (sous CC BY SA par Davide Lamanna) et <a href="https://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg">« logo » cloud computing</a> (sous GPL / Creative Common BY SA par 百楽兎) 			
+						</li>
+						<li><a href="http://grahamcluley.com/2013/12/cloud-privacy-computer/">Source de la citation</a> en diapo 3.</li>
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
