@@ -1,0 +1,15 @@
+.table-card th {
+  border-top:none;
+}
+
+.table-card td {
+  vertical-align: middle;
+}
+
+.table-card {
+  margin-bottom: 0;
+}
+
+.td-btn {
+  text-align: right;
+}
